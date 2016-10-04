@@ -150,6 +150,15 @@ MEDIA QUERIES -- TABLET AND UP
 
 }
 
+.card-body {
+  height:30vh;
+  position:relative;
+  margin-bottom:25%;
+}
+#dynamic-balanced div div a {
+  position: absolute !important;
+  bottom:3em;
+}
 
 /***************************************************************************************************************
 ****************************************************************************************************************

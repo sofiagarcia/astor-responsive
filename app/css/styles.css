@@ -6491,6 +6491,15 @@ MEDIA QUERIES -- TABLET AND UP
     margin-top: 15%;
     max-height: 63vh; } }
 
+.card-body {
+  height: 30vh;
+  position: relative;
+  margin-bottom: 25%; }
+
+#dynamic-balanced div div a {
+  position: absolute !important;
+  bottom: 3em; }
+
 /***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- DESKTOP AND UP
