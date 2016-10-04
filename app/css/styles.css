@@ -6548,21 +6548,11 @@ MEDIA QUERIES -- DESKTOP AND UP
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle; }
-  #active-income .card-btn {
-    margin: 0;
-    position: relative;
-    top: 5em;
-    left: 50; }
   #macro-alternative .card-body p {
     width: 85%;
     line-height: 1.5;
     display: inline-block;
-    vertical-align: middle; }
-  #macro-alternative .card-btn {
-    margin: 0;
-    position: relative;
-    top: 5em;
-    left: 50; } }
+    vertical-align: middle; } }
 
 /***************************************************************************************************************
 ****************************************************************************************************************
