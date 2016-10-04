@@ -1,0 +1,26 @@
+{
+  "name": "responsive-astor-front-page",
+  "version": "1.2.0",
+  "description": "A redesign of astor front page to improve resposiveness",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiagarcia/astor-responsive.git"
+  },
+  "author": "Sofia Garcia, Marlise Urscheler, Sean Hendricks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiagarcia/astor-responsive/issues"
+  },
+  "homepage": "https://github.com/sofiagarcia/astor-responsive#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2"
+  }
+}
