@@ -12788,6 +12788,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 0;
   padding: 0; }
 
+body {
+  background-color: #142A53; }
+
 h1, h2, h3, h4, h5, h6, p, li {
   font-family: 'Open Sans', sans-serif; }
 
@@ -12804,10 +12807,92 @@ h1, h2, h3, h4, h5, h6, p, li {
   color: #142A53 !important; }
 
 nav {
-  background-color: #142A53; }
+  background-color: #142A53;
+  bottom-padding: 0; }
+  nav #secondary-nav {
+    max-height: 140px; }
 
-p {
-  font-size: 100em; }
+.parallax-container {
+  height: 600px; }
+
+#mission-statement {
+  background: #142A53;
+  height: 24em; }
+  #mission-statement i.material-icons {
+    color: white; }
+
+#astor-solutions .card-header {
+  font-size: 1.4em; }
+
+#astor-solutions p {
+  text-align: justify; }
+
+#astor-solutions div.card-body {
+  max-height: 222px; }
+
+.AEI-feature img {
+  margin-top: 1%;
+  margin-bottom: 3.5%; }
+
+#background-1.parallax-container {
+  height: 6em; }
+
+.blog-container {
+  height: 100%;
+  background-color: #fff; }
+  .blog-container h1 {
+    margin-top: 1.2em;
+    display: inline-block;
+    margin: 6.5% 0% 3% 2%; }
+
+#feature-blog-posts .headline {
+  margin: auto;
+  margin-bottom: 1%; }
+
+#feature-blog-posts .divider {
+  background: #505e77;
+  height: 3px; }
+
+#feature-blog-posts .post-title {
+  margin: 2.5% 0% 0% 3%;
+  font-weight: bold; }
+
+#feature-blog-posts .post-date {
+  margin: auto 3% 1.4% 3%; }
+
+#feature-blog-posts .post-snippet {
+  margin: auto 3%; }
+
+#feature-blog-posts .dash {
+  position: relative;
+  border: 0 none;
+  border-top: 2px dashed #C2C2C2;
+  margin: 2% auto;
+  background: none;
+  height: 0; }
+
+#feature-blog-posts .continue {
+  margin: 1%;
+  margin-right: 2%;
+  position: relative; }
+
+footer {
+  background-color: #142A53 !important; }
+  footer .brand-logo-footer {
+    margin-top: 3%;
+    color: #142A53; }
+  footer .social-media-icons li {
+    display: inline;
+    margin: 3% auto; }
+  footer .social-media-icons a {
+    height: 45px;
+    padding-left: 5px; }
+
+.disclosures li {
+  display: inline-block;
+  font-size: 0.8em; }
+  .disclosures li a {
+    color: #fff; }
 
 /***************************************************************************************************************
 ****************************************************************************************************************
@@ -12816,45 +12901,147 @@ MEDIA QUERIES -- MOBILE
 ***************************************************************************************************************/
 @media only screen and (max-width: 600px) {
   nav {
-    height: 4em; } }
-
-/***************************************************************************************************************
+    height: 4em; }
+  .parallax-container h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 8em; }
+  .parallax-container h4 {
+    font-size: 1.4em; }
+  #mission-statement {
+    background: #142A53;
+    height: 19em; }
+  #astor-solutions.parallax-container {
+    height: 3000px; }
+  #AEI {
+    position: relative;
+    background: #142A53; }
+  .AEI-feature h2 {
+    font-size: 1.2em;
+    font-weight: 500; }
+  .AEI-feature h1 {
+    font-size: 1.7em;
+    font-weight: 600; }
+  .AEI-feature img {
+    width: 95%; }
+  div.blog-container {
+    height: 100%;
+    background-color: #fff;
+    width: 100%; }
+  .headline h1 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    margin: 3.5% 0% 3% 3%; }
+  .post-title {
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 6.5% 0% 3% 3%; }
+  .post-date {
+    font-size: 0.9em;
+    font-weight: 100; }
+  .post-snippet {
+    width: 95%; }
+  footer .footer-container {
+    height: 10em;
+    background-color: #142A53; }
+  footer .brand-logo-footer {
+    display: inline-block;
+    align-items: center; }
+  footer .social-media-icons ul {
+    text-align: center; }
+  /***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- TABLET AND DOWN
 ****************************************************************************************************************
-***************************************************************************************************************/
-@media only screen and (max-width: 992px) {
-  nav {
-    height: 5em; }
-    nav .brand-logo {
-      margin: 2.5%; }
-    nav .button-collapse {
-      position: absolute; } }
+***************************************************************************************************************/ }
 
-/***************************************************************************************************************
+@media only screen and (max-width: 600px) and (max-width: 992px) {
+  nav {
+    height: 5.2em;
+    margin: 0; }
+    nav .brand-logo {
+      margin: 3%; }
+    nav .button-collapse {
+      position: absolute; }
+  .card-panel {
+    margin-top: 10%; }
+  #astor-solutions.parallax-container {
+    height: 1400px; } }
+
+@media only screen and (max-width: 600px) and (min-width: 561px) {
+  #astor-solutions.parallax-container {
+    height: 800px; } }
+
+@media only screen and (max-width: 600px) {
+  /***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- TABLET AND UP
 ****************************************************************************************************************
-***************************************************************************************************************/
-@media only screen and (min-width: 601px) {
+***************************************************************************************************************/ }
+
+@media only screen and (max-width: 600px) and (min-width: 601px) {
   nav {
-    height: 6em; }
+    height: 6.4em;
+    margin: 0; }
     nav .brand-logo {
       margin: 2.5%; }
     nav a .button-collapse {
-      padding: 5% auto; } }
+      padding: 5% auto; }
+  .parallax-container h3 {
+    font-size: 3.3em;
+    margin-top: 5em; }
+  #hero-text a {
+    position: absolute;
+    margin: 10% 30%; }
+  #mission-statement {
+    height: 22em; }
+  .card-panel {
+    margin-top: 15%;
+    max-height: 63vh; }
+  .AEI-feature h2 {
+    font-size: 1.8em;
+    font-weight: 100; }
+  .AEI-feature h1 {
+    font-size: 2em;
+    font-weight: 600; }
+  .AEI-feature img {
+    width: 90%; }
+  .headline h1 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    margin: 2.5% 0% 0% 1.5%; }
+  .post-title {
+    font-size: 2em;
+    display: inline-block;
+    margin: inherit; }
+  .post-date {
+    font-size: 0.9em;
+    font-weight: 100; }
+  .post-snippet {
+    width: 95%; }
+  .divider {
+    background: #505e77;
+    height: 3px; } }
 
-/***************************************************************************************************************
+@media only screen and (max-width: 600px) {
+  /***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- DESKTOP AND UP
 ****************************************************************************************************************
-***************************************************************************************************************/
-@media only screen and (min-width: 993px) {
+***************************************************************************************************************/ }
+
+@media only screen and (max-width: 600px) and (min-width: 993px) {
   nav {
-    height: 10em; }
+    height: 10.4em;
+    margin: 0; }
     nav .brand-logo {
       position: absolute;
-      left: -5em; }
+      left: -5em;
+      margin: 5%; }
     nav #secondary-nav {
       position: relative;
       left: 5em; }
@@ -12866,4 +13053,91 @@ MEDIA QUERIES -- DESKTOP AND UP
       background-color: #142A53; }
     nav ul.nav-sm a {
       font-weight: 100;
-      color: #9B9AA0; } }
+      color: #9B9AA0; }
+  .parallax-container h3 {
+    font-size: 4em;
+    margin-top: 5em; }
+  #astor-solutions.parallax-container {
+    height: 500px; }
+  .card-panel {
+    margin-top: 15%;
+    height: 54vh; }
+  #dynamic-balanced .card-body p {
+    width: 95%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle; }
+  #dynamic-balanced .card-btn {
+    margin: 0;
+    position: relative;
+    top: 5em;
+    left: 50; }
+  #sector-allocation .card-body p {
+    width: 95%;
+    line-height: 1.5;
+    font-size: 0.95em;
+    display: inline-block;
+    vertical-align: middle; }
+  #sector-allocation .card-btn {
+    margin: 0;
+    position: relative;
+    top: 5em;
+    left: 50; }
+  #active-income .card-body p {
+    width: 90%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle; }
+  #active-income .card-btn {
+    margin: 0;
+    position: relative;
+    top: 5em;
+    left: 50; }
+  #macro-alternative .card-body p {
+    width: 90%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle; }
+  #macro-alternative .card-btn {
+    margin: 0;
+    position: relative;
+    top: 5em;
+    left: 50; }
+  .AEI-feature h2 {
+    font-size: 2.3em;
+    font-weight: 100; }
+  .AEI-feature h1 {
+    font-size: 2.5em;
+    font-weight: 600; }
+  .AEI-feature img {
+    width: 85%; } }
+
+@media only screen and (max-width: 600px) {
+  /***************************************************************************************************************
+****************************************************************************************************************
+MEDIA QUERIES -- Breakpoint
+****************************************************************************************************************
+***************************************************************************************************************/ }
+
+@media only screen and (max-width: 600px) and (min-width: 994px) and (max-width: 1152px) {
+  #dynamic-balanced, #sector-allocation, #active-income, #macro-alternative {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto; }
+  .card-panel {
+    height: 25em; }
+  .card-body p {
+    margin-top: 1em;
+    align-items: center;
+    width: 65%; }
+  .card-btn {
+    top: inherit auto; } }
+
+@media only screen and (max-width: 600px) {
+  #astor-solutions.parallax-container {
+    height: inherit; } }
+
+@media (min-width: 885px) and (max-width: 887px) {
+  #dynamic-balanced .card-body p {
+    max-width: 75%; } }

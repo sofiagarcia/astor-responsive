@@ -3,12 +3,17 @@ $theme-color-light: #172d56;
 $gray-med: #9B9AA0;
 
 $mid-large-breakpoint: 922px;
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
 @import 'materialize.scss';
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+    background-color: $theme-color;
 }
 h1, h2, h3, h4, h5, h6, p, li {
   font-family: 'Open Sans', sans-serif;
@@ -55,7 +60,101 @@ nav {
    p {
      text-align: justify;
    }
+
+  div.card-body{
+     max-height: 222px;
+   }
  }
+
+ .AEI-feature {
+   img{
+     margin-top: 1%;
+     margin-bottom: 3.5%;
+   }
+ }
+
+ #background-1.parallax-container {
+   height: 6em;
+ }
+
+ .blog-container {
+   height: 100%;
+   background-color: #fff;
+   h1{
+     margin-top: 1.2em;
+     display: inline-block;
+     margin: 6.5% 0% 3% 2%;
+
+   }
+ }
+
+#feature-blog-posts {
+  .headline{
+    margin: auto;
+    margin-bottom: 1%;
+  }
+   .divider {
+     background: #505e77;
+     height: 3px;
+   }
+  .post-title {
+    margin: 2.5% 0% 0% 3%;
+    font-weight: bold;
+  }
+  .post-date {
+     margin: auto 3% 1.4% 3%;
+  }
+
+  .post-snippet {
+     margin: auto 3%;
+  }
+  .dash {
+    position: relative;
+    border: 0 none;
+    border-top: 2px dashed #C2C2C2;
+    margin: 2% auto;
+    background: none;
+    height:0;
+   }
+
+   .continue {
+     margin: 1%;
+     margin-right: 2%;
+     position: relative;
+   }
+
+}
+
+footer {
+
+    background-color: $theme-color !important;
+
+
+  .brand-logo-footer {
+    margin-top: 3%;
+    color: $theme-color;
+
+  }
+
+  .social-media-icons li {
+  display: inline;
+  margin: 3% auto;
+}
+
+.social-media-icons a {
+  height: 45px;
+  padding-left: 5px;
+  }
+}
+
+.disclosures li {
+  display: inline-block;
+  font-size: 0.8em;
+  a {
+    color: #fff;
+  }
+}
+
 
 /***************************************************************************************************************
 ****************************************************************************************************************
@@ -80,8 +179,73 @@ MEDIA QUERIES -- MOBILE
   }
   #mission-statement {
     background: $theme-color;
-    height: 20em;
+    height: 19em;
    }
+
+   #astor-solutions.parallax-container {
+     height: 3000px;
+   }
+
+   #AEI {
+     position: relative;
+     background: $theme-color;
+   }
+   .AEI-feature {
+     h2{
+       font-size: 1.2em;
+       font-weight: 500;
+     }
+     h1{
+       font-size: 1.7em;
+       font-weight: 600;
+     }
+     img{
+       width: 95%;
+     }
+   }
+
+   div.blog-container {
+     height: 100%;
+     background-color: #fff;
+     width: 100%;
+   }
+
+   .headline h1{
+     font-size: 1.5em;
+     text-transform: capitalize;
+     font-weight: 500;
+     display: inline-block;
+     margin: 3.5% 0% 3% 3%;
+   }
+
+   .post-title {
+     font-size: 1.5em;
+     display: inline-block;
+     margin: 6.5% 0% 3% 3%;
+   }
+   .post-date {
+     font-size: 0.9em;
+     font-weight: 100;
+   }
+   .post-snippet {
+     width: 95%;
+   }
+
+   footer {
+
+     .footer-container {
+       height: 10em;
+      background-color: $theme-color;
+     }
+
+     .brand-logo-footer {
+       display: inline-block;
+       align-items: center;
+     }
+       .social-media-icons ul {
+       text-align: center;
+     }
+}
 
 }
 
@@ -92,7 +256,7 @@ MEDIA QUERIES -- TABLET AND DOWN
 ***************************************************************************************************************/
 @media #{$medium-and-down} {
   nav {
-     height: 5em;
+     height: 5.2em;
      margin: 0;
 
      .brand-logo {
@@ -104,12 +268,23 @@ MEDIA QUERIES -- TABLET AND DOWN
    }
 
    .card-panel {
-  margin-top: 15%;
+  margin-top: 10%;
   // height: 55vh;
   }
+  #astor-solutions.parallax-container {
+    height: 1400px;
+  }
+
 }
 
 
+@media (min-width: 561px) {
+
+#astor-solutions.parallax-container {
+  height: 800px;
+}
+
+}
 /***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- TABLET AND UP
@@ -117,7 +292,7 @@ MEDIA QUERIES -- TABLET AND UP
 ***************************************************************************************************************/
 @media #{$medium-and-up} {
   nav {
-     height: 6em;
+     height: 6.4em;
      margin: 0;
 
      .brand-logo {
@@ -134,6 +309,8 @@ MEDIA QUERIES -- TABLET AND UP
      margin-top: 5em;
    }
 
+
+
    #hero-text a {
      position:absolute;
      margin: 10% 30%;
@@ -148,6 +325,52 @@ MEDIA QUERIES -- TABLET AND UP
   max-height: 63vh;
   }
 
+
+
+  .AEI-feature {
+    h2{
+      font-size: 1.8em;
+      font-weight: 100;
+    }
+    h1{
+      font-size: 2em;
+      font-weight: 600;
+    }
+    img{
+      width: 90%;
+    }
+  }
+
+  .headline h1{
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    margin: 2.5% 0% 0% 1.5% ;
+
+  }
+
+
+    .post-title {
+      font-size: 2em;
+      display: inline-block;
+      margin: inherit;
+    }
+    .post-date {
+      font-size: 0.9em;
+      font-weight: 100;
+    }
+    .post-snippet {
+      width: 95%;
+
+    }
+
+
+  .divider {
+    background: #505e77;
+    height: 3px;
+  }
+
 }
 
 
@@ -159,7 +382,7 @@ MEDIA QUERIES -- DESKTOP AND UP
 @media #{$large-and-up} {
   // styles for large screens and up
   nav {
-     height: 10em;
+     height: 10.4em;
      margin: 0;
 
      .brand-logo {
@@ -192,50 +415,59 @@ MEDIA QUERIES -- DESKTOP AND UP
      margin-top: 5em;
    }
 
+
+   #astor-solutions.parallax-container {
+     height: 500px;
+   }
+
    .card-panel {
   margin-top: 15%;
-  // height: 54vh;
+  height: 54vh;
   }
 
   #dynamic-balanced{
     .card-body p{
-      width: 90%;
+      width: 95%;
       line-height: 1.5;
       display: inline-block;
       vertical-align: middle;
     }
-      // .card-btn{
-      // margin: 0;
-      // position: sticky;
-      // top: 1em;
-      // // left: 7%;
-      // transform: translate(0%, 45%);
-      // }
+    .card-btn{
+    margin: 0;
+    position: relative;
+    top: 5em;
+    left: 50;
+    // transform: translate(-25%, -25%);
+      }
     }
   #sector-allocation{
-    .card-panel > .card-btn{
-      margin: 0;
-      // position: sticky;
-      // top: 12em;
-    transform: translate(0%, 15%);
-    }
+
     .card-body p{
-      width: 90%;
+      width: 95%;
       line-height: 1.5;
+      font-size: 0.95em;
       display: inline-block;
       vertical-align: middle;
-    }
+
 
     }
+      .card-btn{
+      margin: 0;
+      position: relative;
+      top: 5em;
+      left: 50;
+      // transform: translate(-25%, -25%);
+      }
+  }
   #active-income{
     .card-body p{
-      width: 85%;
+      width: 90%;
       line-height: 1.5;
       display: inline-block;
       vertical-align: middle;
     }
       .card-btn{
-        margin: 0;
+      margin: 0;
       position: relative;
       top: 5em;
       left: 50;
@@ -244,17 +476,32 @@ MEDIA QUERIES -- DESKTOP AND UP
     }
     #macro-alternative{
       .card-body p{
-        width: 85%;
+        width: 90%;
         line-height: 1.5;
         display: inline-block;
         vertical-align: middle;
       }
         .card-btn{
-          margin: 0;
+        margin: 0;
         position: relative;
         top: 5em;
         left: 50;
         // transform: translate(-25%, -25%);
+        }
+      }
+
+
+      .AEI-feature {
+        h2{
+          font-size: 2.3em;
+          font-weight: 100;
+        }
+        h1{
+          font-size: 2.5em;
+          font-weight: 600;
+        }
+        img {
+          width: 85%;
         }
       }
 }
@@ -264,9 +511,43 @@ MEDIA QUERIES -- DESKTOP AND UP
 MEDIA QUERIES -- Breakpoint
 ****************************************************************************************************************
 ***************************************************************************************************************/
-// @media(min-width: $mid-large-breakpoint) {
-//   .col
-//   -webkit-column-width: 100px; /* Chrome, Safari, Opera */
-//    -moz-column-width: 100px; /* Firefox */
-//    column-width: 100px;
+// @media(min-width: $mid-large-breakpoint) and (max-width: ) {
+
 // }
+
+@media (min-width: 994px) and (max-width: 1152px) {
+  #dynamic-balanced, #sector-allocation, #active-income, #macro-alternative{
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+    .card-panel {
+      height: 25em;
+    }
+    .card-body p{
+      margin-top: 1em;
+      align-items: center;
+      width: 65%;
+    }
+
+    .card-btn {
+      top: inherit auto;
+    }
+
+
+  #astor-solutions.parallax-container {
+    height: inherit;
+  }
+
+}
+
+@media (min-width: 885px) and (max-width: 887px) {
+
+#dynamic-balanced{
+    .card-body p {
+      max-width: 75%;
+    }
+  }
+
+}
