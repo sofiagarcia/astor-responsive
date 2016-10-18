@@ -12813,7 +12813,11 @@ nav {
     max-height: 140px; }
 
 .parallax-container {
-  height: 600px; }
+  height: 700px; }
+
+.learn-more a {
+  margin-top: 2%;
+  background-color: #142A53; }
 
 #mission-statement {
   background: #142A53;
@@ -12950,14 +12954,14 @@ MEDIA QUERIES -- MOBILE
     display: inline-block;
     align-items: center; }
   footer .social-media-icons ul {
-    text-align: center; }
-  /***************************************************************************************************************
+    text-align: center; } }
+
+/***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- TABLET AND DOWN
 ****************************************************************************************************************
-***************************************************************************************************************/ }
-
-@media only screen and (max-width: 600px) and (max-width: 992px) {
+***************************************************************************************************************/
+@media only screen and (max-width: 992px) {
   nav {
     height: 5.2em;
     margin: 0; }
@@ -12968,20 +12972,23 @@ MEDIA QUERIES -- TABLET AND DOWN
   .card-panel {
     margin-top: 10%; }
   #astor-solutions.parallax-container {
-    height: 1400px; } }
+    height: 1400px; }
+  .icons-bottom ul {
+    text-align: center;
+    margin: 2% auto; }
+  .compliance ul {
+    text-align: center; } }
 
-@media only screen and (max-width: 600px) and (min-width: 561px) {
+@media (min-width: 561px) {
   #astor-solutions.parallax-container {
     height: 800px; } }
 
-@media only screen and (max-width: 600px) {
-  /***************************************************************************************************************
+/***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- TABLET AND UP
 ****************************************************************************************************************
-***************************************************************************************************************/ }
-
-@media only screen and (max-width: 600px) and (min-width: 601px) {
+***************************************************************************************************************/
+@media only screen and (min-width: 601px) {
   nav {
     height: 6.4em;
     margin: 0; }
@@ -12992,9 +12999,6 @@ MEDIA QUERIES -- TABLET AND UP
   .parallax-container h3 {
     font-size: 3.3em;
     margin-top: 5em; }
-  #hero-text a {
-    position: absolute;
-    margin: 10% 30%; }
   #mission-statement {
     height: 22em; }
   .card-panel {
@@ -13027,14 +13031,12 @@ MEDIA QUERIES -- TABLET AND UP
     background: #505e77;
     height: 3px; } }
 
-@media only screen and (max-width: 600px) {
-  /***************************************************************************************************************
+/***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- DESKTOP AND UP
 ****************************************************************************************************************
-***************************************************************************************************************/ }
-
-@media only screen and (max-width: 600px) and (min-width: 993px) {
+***************************************************************************************************************/
+@media only screen and (min-width: 993px) {
   nav {
     height: 10.4em;
     margin: 0; }
@@ -13110,16 +13112,18 @@ MEDIA QUERIES -- DESKTOP AND UP
     font-size: 2.5em;
     font-weight: 600; }
   .AEI-feature img {
-    width: 85%; } }
+    width: 85%; }
+  .icons-bottom ul {
+    text-align: right; }
+  .compliance ul {
+    text-align: right; } }
 
-@media only screen and (max-width: 600px) {
-  /***************************************************************************************************************
+/***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- Breakpoint
 ****************************************************************************************************************
-***************************************************************************************************************/ }
-
-@media only screen and (max-width: 600px) and (min-width: 994px) and (max-width: 1152px) {
+***************************************************************************************************************/
+@media (min-width: 994px) and (max-width: 1152px) {
   #dynamic-balanced, #sector-allocation, #active-income, #macro-alternative {
     width: 50%;
     margin-left: auto;
@@ -13132,9 +13136,7 @@ MEDIA QUERIES -- Breakpoint
     align-items: center;
     width: 65%; }
   .card-btn {
-    top: inherit auto; } }
-
-@media only screen and (max-width: 600px) {
+    top: inherit auto; }
   #astor-solutions.parallax-container {
     height: inherit; } }
 

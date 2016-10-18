@@ -6421,7 +6421,11 @@ nav {
     max-height: 140px; }
 
 .parallax-container {
-  height: 600px; }
+  height: 700px; }
+
+.learn-more a {
+  margin-top: 2%;
+  background-color: #142A53; }
 
 #mission-statement {
   background: #142A53;
@@ -6603,9 +6607,6 @@ MEDIA QUERIES -- TABLET AND UP
   .parallax-container h3 {
     font-size: 3.3em;
     margin-top: 5em; }
-  #hero-text a {
-    position: absolute;
-    margin: 10% 30%; }
   #mission-statement {
     height: 22em; }
   .card-panel {

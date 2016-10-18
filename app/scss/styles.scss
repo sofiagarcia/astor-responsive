@@ -41,7 +41,12 @@ nav {
 }
 
 .parallax-container{
-  height: 600px;
+  height: 700px;
+}
+
+.learn-more a {
+  margin-top: 2%;
+  background-color: $theme-color;
 }
 
 #mission-statement {
@@ -321,10 +326,6 @@ MEDIA QUERIES -- TABLET AND UP
 
 
 
-   #hero-text a {
-     position:absolute;
-     margin: 10% 30%;
-   }
 
    #mission-statement {
      height: 22em;
