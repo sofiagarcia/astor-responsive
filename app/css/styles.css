@@ -6576,7 +6576,12 @@ MEDIA QUERIES -- TABLET AND DOWN
   .card-panel {
     margin-top: 10%; }
   #astor-solutions.parallax-container {
-    height: 1400px; } }
+    height: 1400px; }
+  .icons-bottom ul {
+    text-align: center;
+    margin: 2% auto; }
+  .compliance ul {
+    text-align: center; } }
 
 @media (min-width: 561px) {
   #astor-solutions.parallax-container {
@@ -6714,7 +6719,11 @@ MEDIA QUERIES -- DESKTOP AND UP
     font-size: 2.5em;
     font-weight: 600; }
   .AEI-feature img {
-    width: 85%; } }
+    width: 85%; }
+  .icons-bottom ul {
+    text-align: right; }
+  .compliance ul {
+    text-align: right; } }
 
 /***************************************************************************************************************
 ****************************************************************************************************************
