@@ -10,8 +10,8 @@
 
 
     <!--build:css css/styles.min.css  -->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="wp-content/themes/astor/redesign/css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="wp-content/themes/astor/redesign/css/styles.css"  media="screen,projection"/>
     <!-- endbuild -->
 
 
@@ -24,8 +24,10 @@
     <nav>
         <!-- Secondary Header -->
         <div class="nav-wrapper container">
+
             <a href="http://astorim.com" class="brand-logo img-responsive hide-on-small-only"><img src="images/nav-logo.png" alt="Astor Investment Management Logo" /></a>
             <a href="http://astorim.com" class="brand-logo hide-on-med-and-up center"><img src="images/nav-logo-mobile.png" alt="Astor Investment Management Logo" /></a>
+            
             <a href="#" data-activates="mobile" class="button-collapse vertical"><i class="material-icons">menu</i></a>
 
 
@@ -79,7 +81,7 @@
 
     <section id="hero-banner">
         <div class="parallax-container hero">
-            <div class="parallax responsive-img"><img src="images/slider.png"></div>
+            <div class="parallax responsive-img"><img src="wp-content/themes/astor/redesign/images/slider.png"></div>
             <div id="hero-text" class="valign">
                 <h3 class="valign center white-text"><b>FUNDAMENTALLY DRIVEN.</b></h3>
                 <h4 class="valign center white-text">Macroeconomics-Based Asset Allocation </h4>
@@ -92,8 +94,8 @@
 
 <section id="mission-statement" class="z-depth-2">
   <!-- <img class="arrow-divider hide-on-med-and-up responsive-img" src="images/white-arrow-mobile.png" alt="arrow divider small"/> -->
-  <img class="arrow-divider hide-on-large-only responsive-img" src="images/white-arrow-tablet.png" alt="arrow divider"/>
-  <img class="arrow-divider hide-on-med-and-down responsive-img" src="images/white-arrow@3x.png" alt="arrow divider"/>
+  <img class="arrow-divider hide-on-large-only responsive-img" src="wp-content/themes/astor/redesign/images/white-arrow-tablet.png" alt="arrow divider"/>
+  <img class="arrow-divider hide-on-med-and-down responsive-img" src="wp-content/themes/astor/redesign/images/white-arrow@3x.png" alt="arrow divider"/>
         <div class="mission container center">
           <p class="center-align white-text flow-text"><b>Our mission is to educate and empower</b>
                   investment professionals and their clients with
@@ -108,7 +110,7 @@
 </section>
 
 <section id="astor-solutions" class="parallax-container">
-    <div class="parallax"><img src="images/shattered-parallax.png"></div>
+    <div class="parallax"><img src="wp-content/themes/astor/redesign/images/shattered-parallax.png"></div>
     <div class="row center">
   <!-- Dynamic Balanced -->
       <div class="col s12 m6 l3 "  id="dynamic-balanced">
@@ -117,8 +119,13 @@
                 <span class="card-title indigo-text center-align" id="LSB"><b>Astor Solutions:</b> </br>Dynamic Allocation</span>
             </div>
             <div class="card-body valign">
+<<<<<<< HEAD:app/index.html
                 <img class= "hide-on-med-and-up center responsive-img valign" src="images/Line.png" alt="Dotted Line Divider" />
                 <img class = "hide-on-small-only center responsive-img valign"src="images/Line-med.png" alt="Dotted Line Divider" />
+=======
+                <img class= "hide-on-med-and-up center responsive-img valign" src="wp-content/themes/astor/redesign/images/Line.png" alt="Dotted Line Divider" />
+                <img class = "hide-on-small-only center responsive-img valign"src="wp-content/themes/astor/redesign/images/Line-med.png" alt="Dotted Line Divider" />
+>>>>>>> 63285fd8b832aa7a3b1070b4b5062488e052dbb4:app/custom-front-page.php
                     <p>Seeks to create an optimal mix of exposure to U.S.
                       equity and up to eight asset classes with low correlation to the broader market;
                        uses the Astor Economic Index® for asset allocation.</p>
@@ -137,8 +144,8 @@
             <span class="card-title indigo-text center-align" id="LSB"><b>Astor Solutions:</b> </br>Sector Allocation</span>
         </div>
         <div class="card-body valign">
-            <img class= "hide-on-med-and-up center responsive-img valign" src="images/line.png" alt="Dotted Line Divider" />
-            <img class = "hide-on-small-only center responsive-img valign"src="images/line-med.png" alt="Dotted Line Divider" />
+            <img class= "hide-on-med-and-up center responsive-img valign" src="wp-content/themes/astor/redesign/images/Line.png" alt="Dotted Line Divider" />
+            <img class = "hide-on-small-only center responsive-img valign"src="wp-content/themes/astor/redesign/images/Line-med.png" alt="Dotted Line Divider" />
                 <p>A dynamic core equity solution for the risk-minded investor;
                   focuses on macro-economic fundamentals and price trends at the sector level;
                   over/underweights sectors with a risk overlay.</p>
@@ -155,8 +162,8 @@
             <span class="card-title indigo-text center-align" id="LSB"><b>Astor Solutions:</b> </br>Active Income</span>
         </div>
         <div class="card-body">
-            <img class= "hide-on-med-and-up responsive-img" src="images/line.png" alt="Dotted Line Divider" />
-            <img class = "hide-on-small-only responsive-img"src="images/line-med.png" alt="Dotted Line Divider" />
+            <img class= "hide-on-med-and-up responsive-img" src="wp-content/themes/astor/redesign/images/Line.png" alt="Dotted Line Divider" />
+            <img class = "hide-on-small-only responsive-img"src="wp-content/themes/astor/redesign/images/Line-med.png" alt="Dotted Line Divider" />
                 <p>Seeks to provide income and capital appreciation with a focus on risk management;
                    adjusts allocations among income-producing asset classes as market
                    conditions change.</p>
@@ -173,8 +180,8 @@
           <span class="card-title indigo-text center-align" id="LSB"><b>Astor Solutions:</b> </br>Macro Alternative</span>
       </div>
       <div class="card-body">
-          <img class= "hide-on-med-and-up responsive-img" src="images/line.png" alt="Dotted Line Divider" />
-          <img class = "hide-on-small-only responsive-img"src="images/line-med.png" alt="Dotted Line Divider" />
+          <img class= "hide-on-med-and-up responsive-img" src="wp-content/themes/astor/redesign/images/Line.png" alt="Dotted Line Divider" />
+          <img class = "hide-on-small-only responsive-img"src="wp-content/themes/astor/redesign/images/Line-med.png" alt="Dotted Line Divider" />
               <p>Seeks to provide income and capital appreciation with a focus on risk management;
                  adjusts allocations among income-producing asset classes as market
                  conditions change.</p>
@@ -190,14 +197,14 @@
   <div class="AEI-feature">
       <h2 class="center valign text-white">The Cornerstone of Astor's Investment Process</h2>
       <h1 class="center valign text-white">ASTOR ECONOMIC INDEX<i class="fa fa-registered" aria-hidden="true"></i></h1>
-      <div class="hide-on-med-and-up responsive-img center valign"><a href="http://astorim.com/wp-content/uploads/2016/08/Astor-Economic-Index-FINAL-1.pdf"><img src="/images/Astor-Economic-Index-FINAL-1@2x.png" alt="AEI Chart"></a></div>
-      <div class="hide-on-small-only responsive-img center valign"><a href="http://astorim.com/wp-content/uploads/2016/08/Astor-Economic-Index-FINAL-1.pdf"><img src="/images/AEI chart.png" alt="AEI Chart"></a></div>
+      <div class="hide-on-med-and-up responsive-img center valign"><a href="http://astorim.com/wp-content/uploads/2016/08/Astor-Economic-Index-FINAL-1.pdf"><img src="wp-content/themes/astor/redesign/images/Astor-Economic-Index-FINAL-1@2x.png" alt="AEI Chart"></a></div>
+      <div class="hide-on-small-only responsive-img center valign"><a href="http://astorim.com/wp-content/uploads/2016/08/Astor-Economic-Index-FINAL-1.pdf"><img src="wp-content/themes/astor/redesign/images/AEI_chart.png" alt="AEI Chart"></a></div>
       <!-- <div class="AEI-image responsive-img"><img src="/images/AEI chart.png" alt="AEI Chart"></div> -->
   </div>
 </section>
 
 <section id="background-1" class="parallax-container">
-<div class="parallax"><img src="images/shattered-parallax.png"></div>
+<div class="parallax"><img src="wp-content/themes/astor/redesign/images/shattered-parallax.png"></div>
 </section>
 
 <section id="feature-blog-posts">
@@ -241,7 +248,7 @@
 </section>
 
 <section id="background-1" class="parallax-container">
-<div class="parallax"><img src="images/shattered-parallax.png"></div>
+<div class="parallax"><img src="wp-content/themes/astor/redesign/images/shattered-parallax.png"></div>
 </section>
 
 
@@ -249,8 +256,8 @@
   <div class="container">
     <div class="row">
        <div class="col l2 s12 footer-content center">
-         <a href="www.astorim.com" class="brand-logo-footer hide-on-med-and-up"><img src="images/nav-logo-mobile.png" alt="Astor Investment Management Logo" /></a>
-         <a href="www.astorim.com" class="brand-logo-footer hide-on-small-only"><img src="images/footer-logo.png" alt="Astor Investment Management Logo" /></a>
+         <a href="www.astorim.com" class="brand-logo-footer hide-on-med-and-up"><img src="wp-content/themes/astor/redesign/images/nav-logo-mobile.png" alt="Astor Investment Management Logo" /></a>
+         <a href="www.astorim.com" class="brand-logo-footer hide-on-small-only"><img src="wp-content/themes/astor/redesign/images/footer-logo.png" alt="Astor Investment Management Logo" /></a>
         </div>
         <div class="icons-bottom col s12">
           <ul class="social-media-icons">
@@ -297,8 +304,8 @@
 
     <!--build:js js/main.min.js  -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bin/materialize.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="wp-content/themes/astor/redesign/js/bin/materialize.js"></script>
+    <script type="text/javascript" src="wp-content/themes/astor/redesign/js/app.js"></script>
     <!-- endbuild -->
 
 
