@@ -27,14 +27,17 @@
 
             <a href="http://astorim.com" class="brand-logo img-responsive hide-on-small-only"><img src="images/nav-logo.png" alt="Astor Investment Management Logo" /></a>
             <a href="http://astorim.com" class="brand-logo hide-on-med-and-up center"><img src="images/nav-logo-mobile.png" alt="Astor Investment Management Logo" /></a>
-            
+
+            <a href="#!" class="brand-logo img-responsive hide-on-small-only"><img src="wp-content/themes/astor/redesign/images/nav-logo.png" alt="Astor Investment Management Logo" /></a>
+            <a href="#!" class="brand-logo hide-on-med-and-up center"><img src="wp-content/themes/astor/redesign/images/nav-logo-mobile.png" alt="Astor Investment Management Logo" /></a>
+>>>>>>> 63285fd8b832aa7a3b1070b4b5062488e052dbb4:app/custom-front-page.php
             <a href="#" data-activates="mobile" class="button-collapse vertical"><i class="material-icons">menu</i></a>
 
 
             <div class="right hide-on-med-and-down" id="secondary-nav">
                 <div class="row row-nav-test">
                     <ul class="nav-sm right">
-                        <li class="text-gray"><a href="http://astorim.com/wp-content/uploads/2016/07/Astor-Overview_FINAL_2107.pdf">About Astor</a></li>
+                        <li class="text-gray"><a href="http://astorim.com/astor-philosophy/">About Astor</a></li>
                         <li class="text-gray">|</li>
                         <li class="text-gray"><a href="http://astorim.com/blog/">Blog</a></li>
                         <li class="text-gray">|</li>
@@ -62,7 +65,7 @@
                     <ul class="nav-main">
                         <li><a class="waves-effect waves-light hoverable center" href="http://astorim.com/astor-solutions/">Products </a></li>
                         <li><a class="waves-effect waves-light hoverable center " href="http://astorim.com/the-library/">Library</a></li>
-                        <li><a class="waves-effect waves-light hoverable center" href="http://astorim.com/astor-resources/">Resources </a></li>
+                        <li><a class="waves-effect waves-light hoverable center" href="http://astorim.com/general-info/">Resources </a></li>
                     </ul>
                 </div>
             </div>
@@ -86,7 +89,7 @@
                 <h3 class="valign center white-text"><b>FUNDAMENTALLY DRIVEN.</b></h3>
                 <h4 class="valign center white-text">Macroeconomics-Based Asset Allocation </h4>
                 <div class="learn-more center">
-                  <a href="http://astorim.com/connect/" id="main-btn" class="center-align waves-effect waves-light btn-large">Learn More</a>
+                  <a href="http://astorim.com/astor-philosophy/" id="main-btn" class="center-align waves-effect waves-light btn-large">Learn More</a>
                 </div>
             </div>
         </div>
@@ -275,11 +278,11 @@
 
         <div class="compliance">
           <ul class= "disclosures">
-              <li><a href="#">Privacy Notice</a></li>
+              <li><a href="http://astorim.com/wp-content/uploads/2016/03/Astor-Privacy-Notice.pdf">Privacy Notice</a></li>
               <li class="text-gray">|</li>
-              <li><a href="#">Terms of Use & Disclosures</a></li>
+              <li><a href="http://astorim.com/wp-content/uploads/2016/03/Astor-Website-Terms-Conditions-2016.pdf">Terms of Use & Disclosures</a></li>
               <li class="text-gray">|</li>
-              <li><a href="#">Form ADV Part 2</a></li>
+              <li><a href="http://astorim.com/wp-content/uploads/2016/03/Astor-Inv-Mgmt-Form-ADV-Part-2-Brochure-2-23-16.pdf">Form ADV Part 2</a></li>
           </ul>
           </ul>
           </ul>
