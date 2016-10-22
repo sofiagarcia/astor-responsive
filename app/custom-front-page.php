@@ -133,7 +133,7 @@
                       equity and up to eight asset classes with low correlation to the broader market;
                        uses the Astor Economic Index® for asset allocation.</p>
                      </br>
-                  <a href="http://astorim.com/strategy-info/" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
+                  <a href=" http://astorim.com/attachments/LSB_SMA.pdf" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
             </div>
         </div>
     </div>
@@ -153,7 +153,7 @@
                   focuses on macro-economic fundamentals and price trends at the sector level;
                   over/underweights sectors with a risk overlay.</p>
                  </br>
-              <a href="http://astorim.com/strategy-info/" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
+              <a href="http://astorim.com/attachments/STAR_SMA.pdf" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
         </div>
     </div>
 </div>
@@ -171,7 +171,7 @@
                    adjusts allocations among income-producing asset classes as market
                    conditions change.</p>
                  </br>
-              <a href="http://astorim.com/strategy-info/" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
+              <a href="http://astorim.com/attachments/AI_SMA.pdf" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
         </div>
     </div>
 </div>
@@ -189,7 +189,7 @@
                  adjusts allocations among income-producing asset classes as market
                  conditions change.</p>
                </br>
-            <a href="http://www.astorimfunds.com/macro-alternative-fund.html" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
+            <a href="http://www.astorimfunds.com/assets/Astor%20Macro%20Global%28FINAL%29.pdf" class="card-btn hoverable center-align waves-effect waves-light btn-large">Read More</a>
       </div>
   </div>
 </div>
