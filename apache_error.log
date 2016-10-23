@@ -1,0 +1,13 @@
+[Mon Oct 17 21:30:41 2016] [notice] Digest: generating secret for digest authentication ...
+[Mon Oct 17 21:30:41 2016] [notice] Digest: done
+[Mon Oct 17 21:30:41 2016] [notice] FastCGI: process manager initialized (pid 16489)
+[Mon Oct 17 21:30:41 2016] [notice] Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/7.0.0 mod_ssl/2.2.29 OpenSSL/0.9.8zh DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 configured -- resuming normal operations
+[Mon Oct 17 21:33:22 2016] [error] [client ::1] Directory index forbidden by Options directive: /Applications/XAMPP/xamppfiles/htdocs/astor.dev/
+[Mon Oct 17 21:33:25 2016] [error] [client ::1] Directory index forbidden by Options directive: /Applications/XAMPP/xamppfiles/htdocs/astor.dev/
+[Mon Oct 17 21:33:27 2016] [notice] caught SIGTERM, shutting down
+[Mon Oct 17 21:33:32 2016] [notice] Digest: generating secret for digest authentication ...
+[Mon Oct 17 21:33:32 2016] [notice] Digest: done
+[Mon Oct 17 21:33:32 2016] [notice] FastCGI: process manager initialized (pid 16817)
+[Mon Oct 17 21:33:32 2016] [notice] Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/7.0.0 mod_ssl/2.2.29 OpenSSL/0.9.8zh DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 configured -- resuming normal operations
+[Mon Oct 17 21:33:35 2016] [error] [client ::1] Directory index forbidden by Options directive: /Applications/XAMPP/xamppfiles/htdocs/astor.dev/
+[Mon Oct 17 21:33:52 2016] [notice] caught SIGTERM, shutting down
