@@ -386,6 +386,15 @@ MEDIA QUERIES -- TABLET AND UP
 
 }
 
+.card-body {
+  height:30vh;
+  position:relative;
+  margin-bottom:25%;
+}
+#dynamic-balanced div div a {
+  position: absolute !important;
+  bottom:3em;
+}
 
 /***************************************************************************************************************
 ****************************************************************************************************************
@@ -479,6 +488,7 @@ MEDIA QUERIES -- DESKTOP AND UP
       display: inline-block;
       vertical-align: middle;
     }
+<<<<<<< HEAD
       .card-btn{
       margin: 0;
       position: relative;
@@ -486,6 +496,15 @@ MEDIA QUERIES -- DESKTOP AND UP
       left: 50;
       // transform: translate(-25%, -25%);
       }
+=======
+      // .card-btn{
+      //   margin: 0;
+      // position: relative;
+      // top: 5em;
+      // left: 50;
+      // // transform: translate(-25%, -25%);
+      // }
+>>>>>>> master
     }
     #macro-alternative{
       .card-body p{
@@ -494,6 +513,7 @@ MEDIA QUERIES -- DESKTOP AND UP
         display: inline-block;
         vertical-align: middle;
       }
+<<<<<<< HEAD
         .card-btn{
         margin: 0;
         position: relative;
@@ -501,6 +521,15 @@ MEDIA QUERIES -- DESKTOP AND UP
         left: 50;
         // transform: translate(-25%, -25%);
         }
+=======
+        // .card-btn{
+        //   margin: 0;
+        // position: relative;
+        // top: 5em;
+        // left: 50;
+        // // transform: translate(-25%, -25%);
+        // }
+>>>>>>> master
       }
 
 

@@ -6639,6 +6639,15 @@ MEDIA QUERIES -- TABLET AND UP
     background: #505e77;
     height: 3px; } }
 
+.card-body {
+  height: 30vh;
+  position: relative;
+  margin-bottom: 25%; }
+
+#dynamic-balanced div div a {
+  position: absolute !important;
+  bottom: 3em; }
+
 /***************************************************************************************************************
 ****************************************************************************************************************
 MEDIA QUERIES -- DESKTOP AND UP
@@ -6698,15 +6707,11 @@ MEDIA QUERIES -- DESKTOP AND UP
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle; }
-  #active-income .card-btn {
-    margin: 0;
-    position: relative;
-    top: 5em;
-    left: 50; }
   #macro-alternative .card-body p {
     width: 90%;
     line-height: 1.5;
     display: inline-block;
+<<<<<<< HEAD
     vertical-align: middle; }
   #macro-alternative .card-btn {
     margin: 0;
@@ -6725,6 +6730,9 @@ MEDIA QUERIES -- DESKTOP AND UP
     text-align: right; }
   .compliance ul {
     text-align: right; } }
+=======
+    vertical-align: middle; } }
+>>>>>>> master
 
 /***************************************************************************************************************
 ****************************************************************************************************************
